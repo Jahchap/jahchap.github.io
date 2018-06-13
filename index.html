@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Nwachukwu Ani">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<div class="myNav">
+		  <nav class="nav container void-background">
+			  <div class="nav-left">
+			  	<a class="nav-item" href="#">My Portfolio</a>				
+			  </div>
+
+			  <div class="nav-right nav-menu">
+			  	<a class="nav-item" href="#about">About</a>
+			  	<a class="nav-item" href="#projects">Projects</a>
+			  	<a class="nav-item" href="#social">Social</a>
+			  </div>
+
+			  <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			  <span class="nav-toggle">
+			  	<span></span>
+			  	<span></span>
+			  	<span></span>
+			  </span>
+		  </nav>
+	  </div>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<img class="avatar" src="assets/img/profile.jpg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					Hi, I am Nwachukwu Ani a Web Designer/Developer. I love accepting challenges that will boost my creativity. I find myself always learning the latest trends in web design and development.
+
+					<span class="quote">One of my favourite quotes: "The secret of getting ahead is getting started." - Mark Twain.</span>
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column myProject">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img style="border-radius: 20px;" src="assets/img/project-1.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p class="project-text">
+									  Church without borders, shining light wherever we go.
+									</p>
+                  <p class="project-text">
+									<a class="button is-info is-static" href="http://www.shininglightkingdombuilders.org">Visit website</a>
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="column myProject">
+						<div class="box project-text">
+							<article class="my-article">
+								<div>			
+									<p class="project-text">
+									  Project in progress.
+									</p>
+									<p>
+										This project is being built with Nodejs, Express framework, and MongoDB.
+									</p>
+                  <p class="project-text">
+									<a class="button is-info is-static" href="https://alwaha-v4.herokuapp.com">Visit website</a>
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				
+				<div class="columns">
+					<div class="social-container is-6">
+						<div class="column is-3 has-text-centered">
+						  <a href="http://medium.com/@jahchap/">
+							  <i class="fa fa-medium"></i>
+					    </a>
+					  </div>
+					  <div class="column is-3 has-text-centered">
+					    <a href="http://github.com/jahchap">
+							  <i class="fa fa-github"></i>
+					    </a>
+					  </div>
+					  <div class="column is-3 has-text-centered">
+					    <a href="https://twitter.com/jahchap">
+							  <i class="fa fa-twitter"></i>
+					    </a>
+					  </div>
+					  <div class="column is-3 has-text-centered">
+							<a href="https://www.facebook.com/jahchap">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="assets/files/Nwachukwu_Ani_CV.pdf" download>View My Resume</a> | 
+			<a href="mailto:nc.jahchap@gmail.com">Email: nc.jahchap@mail.com</a> | 
+			<a href="tel:+971543949146">Call me: +971543949146</a>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="mycontroller.js"></script>		
+	</body>	
+</html>

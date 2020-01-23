@@ -80,8 +80,15 @@ a.nav-item:hover {
 
 .project-figure {
 	margin: 0 auto 1rem auto;
-	max-height: 256px;
-	max-width: 256px;
+	height: 70%;
+	width: 70%;
+}
+
+.project-figure img {
+	border-radius: 10px;
+	width: 75%;
+	height: 75%;
+	margin:0 auto;
 }
 
 .project-text {
@@ -92,7 +99,7 @@ a.nav-item:hover {
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
 	margin: auto;
-	height: 20em;
+	height: 100%;
 }
 
 .my-article{
@@ -134,7 +141,3 @@ a.nav-item:hover {
 	}
 
 }
-
-/*.mySocial{
-	padding: 0.7em;
-}*/

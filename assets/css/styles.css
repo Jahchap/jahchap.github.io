@@ -88,7 +88,9 @@ a.nav-item:hover {
 	border-radius: 10px;
 	width: 75%;
 	height: 75%;
+  min-height: 200px;
 	margin:0 auto;
+  background-color: white;
 }
 
 .project-text {

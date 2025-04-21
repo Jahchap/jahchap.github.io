@@ -82,15 +82,21 @@ a.nav-item:hover {
 	margin: 0 auto 1rem auto;
 	height: 70%;
 	width: 70%;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .project-figure img {
 	border-radius: 10px;
-	width: 75%;
+	/* width: 75%; */
 	height: 75%;
   min-height: 200px;
+  max-height: 200px;
 	margin:0 auto;
   background-color: white;
+  object-fit: contain;
+  transition: 0.3s;
+  padding: 15px;
 }
 
 .project-text {
@@ -102,6 +108,10 @@ a.nav-item:hover {
 	border: 2px solid rgba(7, 59, 79, 0.5);
 	margin: auto;
 	height: 100%;
+}
+
+.box:hover img {
+  transform: scale(1.05);
 }
 
 .my-article{
